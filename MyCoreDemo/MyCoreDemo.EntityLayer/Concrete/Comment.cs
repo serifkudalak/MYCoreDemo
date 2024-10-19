@@ -16,5 +16,8 @@ namespace MyCoreDemo.EntityLayer.Concrete
         public string Content { get; set; }
         public DateTime CreateDate { get; set; }
         public bool Status { get; set; }
+
+        public int BlogId { get; set; }
+        public Blog Blog { get; set; }
     }
 }

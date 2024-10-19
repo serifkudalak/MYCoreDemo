@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyCoreDemo.DataAccessLayer\MyCoreDemo.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\MyCoreDemo.EntityLayer\MyCoreDemo.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>
